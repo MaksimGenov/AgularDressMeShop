@@ -1,5 +1,23 @@
 # DressMeShop
 
+-Home Page has only a image.
+
+-Brands page is displaying a left menu with all the brands and a router outlet for the following subpages:
+  -Brands list is displaying a card for each brand. If an admin is logged he can see edit and delete button.
+    The delete button is removing the brand and all of it's products.
+  -Products list displaing cards for all the products for the selected brand.
+   
+-Categories page is displaying a left menu with all the categories and a router outlet for the following subpages:
+  -Categories list is displaying a card for each category. If an admin is logged he can see edit and delete button.
+    The delete button is removing the category.
+  -Products list displaing cards for all the products for the selected brand.
+
+-Admin Page displaying a left menu and a router outlet for the following subpages:
+  -Add Brand: displaying a form for adding a brand.
+  -Add Category: displaying a form for adding a category.
+  -Add Product: displaying a form for adding a product.
+  -Edit Forms for Brand, Category and Product.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
 
 ## Development server
